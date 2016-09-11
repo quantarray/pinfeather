@@ -65,8 +65,17 @@ pinFeather {
 Depending on your version of Raspberry Pi, your pysical wiring will differ. 
 
 I used the [Pi4J's pinout for Raspberry Pi 3 Model B](http://pi4j.com/pins/model-3b-rev1.html).
+
+# LED Lights
+
+When connected to the network and 
+
+* all builds are successful, the green LED on the breadboard will light up 
+* any build fails, the red LED on the breadboard will light up.
  
 ![Connected, successful](/doc/PinFeatherConnectedSuccessful.JPG "Connected, successful")
+
+When disconnected from the network or having network connectivity issues with the TeamCity server, the blue LED on the breadboard will light up.
 
 ![Disconnected](/doc/PinFeatherDisconnected.JPG "Disconnected")
 
