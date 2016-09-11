@@ -66,4 +66,7 @@ Depending on your version of Raspberry Pi, your pysical wiring will differ.
 
 I used the [Pi4J's pinout for Raspberry Pi 3 Model B](http://pi4j.com/pins/model-3b-rev1.html).
  
-[![Connected, successful](/doc/PinFeatherConnectedSuccessful.JPG)]
+![Connected, successful](/doc/PinFeatherConnectedSuccessful.JPG "Connected, successful")
+
+![Disconnected](/doc/PinFeatherDisconnected.JPG "Disconnected")
+
