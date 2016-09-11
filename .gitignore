@@ -45,3 +45,5 @@ temp/
 
 !data/**
 /pinfeather-monitor-package-deploy-*.sh
+/.httpAuth
+/*.application.conf
