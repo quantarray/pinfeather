@@ -3,7 +3,7 @@
 source ./pinfeather-monitor-version.sh
 
 if [ -z $1 ]; then
-  echo "Supply name of configuration resource name as the first parameter, e.g. my."
+  echo "Supply name of configuration resource name as the first parameter, e.g. xyz."
   exit 1
 fi
 
