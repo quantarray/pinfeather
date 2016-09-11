@@ -1,0 +1,47 @@
+# General
+logs/
+*.log
+.DS_Store
+
+# SBT
+.cache/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/*
+project/boot/
+project/plugins/project/
+temp/
+
+# Allows scalaxb produced code to be checked in
+# Intellij build doesn't generate automatically
+# sbt compile does regenerate though
+!src_managed/main/sbt-scalaxb
+
+# IntelliJ IDEA
+.idea/.name
+.idea/bashsupport_project.xml
+.idea/codeStyleSettings.xml
+.idea/compiler.xml
+.idea/copyright/
+.idea/encodings.xml
+.idea/highlighting.xml
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules/
+.idea/modules.xml
+.idea/sbt.xml
+.idea/scala_compiler.xml
+.idea/scala_settings.xml
+.idea/scopes/
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/workspace.xml
+*.csv
+*.xlsx
+*.gz
+
+!data/**
+/pinfeather-monitor-package-deploy-*.sh

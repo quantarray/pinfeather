@@ -1,0 +1,4 @@
+method=httpAuth
+hostUrl=http://192.168.1.14:8111
+userName=
+password=
